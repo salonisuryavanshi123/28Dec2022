@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JavaScript Class Inheritance</title>
+
+        <script>
+            //I can write the JS code before the closing of head tag
+        </script>
+    </head>
+    <body>
+        
+        <script>
+            //I can write the JS code before the closing of body tag
+            class MyClassA{ //PascalCase
+                //Lets figure out how many member are there in a class
+                //1. Member 1
+
+                //2. Member 2
+
+                //3. Member 3  i.e. method
+                //Methods Defination
+                addition(x,y){ //camelCase  //Formal Argument
+                    //function body
+                    //Every method should return something
+                    return x+y; //statement
+                }
+            }
+
+            //In order to call a method inside a class with
+            //you have to create class object
+
+            // let object = new ClassName();
+            //object.method();
+            let myobjecta = new MyClassA();
+            let resulta = myobjecta.addition(5,4); //5 and 4 are Actual Argument
+            console.log(resulta);
+
+            class MyClassB{
+                //Lets figure out how many members are there in a class
+                //1. Member 1
+
+                //2. Member 2
+
+                //3. member 3
+                //Methods Defination
+                subtraction(x,y){ //formal argument
+                    //function body
+                   //Every method should return something
+                   return x-y; //statement
+                }
+            }
+            //In order to call a method inside a class with
+            //you have to create class object
+
+            // let object = new ClassName();
+            //object.method();
+            let myobjectb = new MyClassB();
+            let resultb = myobjectb.subtraction(15,8); //15 and 8 are Actual Argument
+            console.log(resultb);
+
+            class MyClassC{ //PascalCase
+                //Lets figure out how many members are there in a class
+                //1. Member 1
+
+                //2. Member 2
+
+                //3. Member 3
+                //Method Defination
+                multiplication(x,y){  //formal argument
+                    //function body
+                    //Every function should return something
+                    return x*y; //statement
+                }
+            }
+            //In order to call a method inside a class
+            //you have to create a class object
+
+            //let object = new ClassName();
+            //object.method();
+            let myobjectc = new MyClassC();
+            let resultc = myobjectc.multiplication(2,3); //2 and 3 are Actual Argument
+            console.log(resultc);
+
+            class MyClassD{ //PascalCase
+                //Lets figure out how many members are there in a class
+                //1. Member 1
+                //2. Member 2
+
+                //3. Member 3
+                //Methods Defination
+                division(x,y){   //formal argument
+                    //function body
+                    //Every function should return something
+                    return x/y; //statement
+                }
+            }
+            //In order to call a method inside a class
+            //you can create a object
+
+            //let object = new ClassName();
+            //object.method();
+            let myobjectd = new MyClassD();
+            let resultd = myobjectd.division(16,4); //18 and 3 are Actual Argument
+            console.log(resultd);
+
+        </script>
+    </body>
+</html>
